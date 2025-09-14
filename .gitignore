@@ -1,0 +1,47 @@
+# LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# LaTeX bibliography files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# LaTeX build tool files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# LaTeX multi-file documents
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# LaTeX Beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# LaTeX miscellaneous
+*.figlist
+*.makefile
+*.xdy
