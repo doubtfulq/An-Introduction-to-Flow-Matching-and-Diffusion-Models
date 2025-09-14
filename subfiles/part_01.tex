@@ -92,6 +92,7 @@ A notable exception to the above is text data, which is typically modeled as a d
 上述的一个值得注意的例外是文本数据，它通常通过自回归语言模型（如\emph{ChatGPT}）建模为离散对象。虽然已经开发了用于离散数据的流模型和扩散模型，但本课程专门关注连续数据的应用。
 
 
+
 \paragraph{Generation as Sampling.}Let us define what it means to ``generate'' something. For example, let's say we want to generate an image of a dog. Naturally, there are \emph{many} possible images of dogs that we would be happy with. In particular, there is no one single ``best'' image of a dog. Rather, there is a spectrum of images that fit better or worse. In machine learning, it is common to think of this diversity of possible images as a \emph{probability distribution}. We call it the \themebf{data distribution} and denote it as $\pdata$. In the example of dog images, this distribution would therefore give higher likelihood to images that look more like a dog. Therefore, how "good" an image/video/molecule fits - a rather subjective statement - is replaced by how "likely" it is under the data distribution $\pdata$. With this, we can mathematically express the task of generation as sampling from the (unknown) distribution $\pdata$:
 \begin{ideabox}[Generation as Sampling]
     Generating an object $z$ is modeled as sampling from the data distribution $z\sim \pdata$.
